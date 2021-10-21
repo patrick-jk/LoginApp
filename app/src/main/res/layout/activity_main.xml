@@ -4,15 +4,16 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_activity"
     android:orientation="vertical">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Dango"
-        android:textStyle="bold"
+        android:text="@string/dango"
+        android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="20sp"
-        android:textAllCaps="true"/>
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,6 +36,7 @@
             android:layout_height="250dp"
             android:layout_margin="30dp"
             android:background="@drawable/image_view_background"
+            android:contentDescription="@string/profile_logo"
             android:padding="40dp"
             android:src="@drawable/ic_logo_login" />
 

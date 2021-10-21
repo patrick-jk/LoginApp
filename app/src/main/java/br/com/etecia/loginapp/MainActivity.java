@@ -33,8 +33,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-    public void sairSistema(View view) {
-        finish();
-    }
 }

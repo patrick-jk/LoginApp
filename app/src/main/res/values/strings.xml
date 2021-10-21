@@ -9,4 +9,6 @@
     <string name="sonya_gmail_com">sonya@gmail.com</string>
     <string name="register">Register</string>
     <string name="delete_account">Delete Account</string>
+    <string name="dango">Dango</string>
+    <string name="profile_logo">Profile Logo</string>
 </resources>
