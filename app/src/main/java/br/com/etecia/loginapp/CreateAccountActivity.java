@@ -30,6 +30,8 @@ public class CreateAccountActivity extends AppCompatActivity {
 
             if (user.equalsIgnoreCase("etecia") && password.equalsIgnoreCase("etecia")) {
                 Toast.makeText(getApplicationContext(), "Bem vindo ao sistema!!!", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(getApplicationContext(), "Usuário ou Senha Incorreta!", Toast.LENGTH_SHORT).show();
             }
         });
 
